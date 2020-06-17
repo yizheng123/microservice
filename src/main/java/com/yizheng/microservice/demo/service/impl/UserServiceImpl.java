@@ -35,13 +35,4 @@ public class UserServiceImpl implements UserService {
 
         List<TbUser> allUsers = tbUserMapper.getAllUsers();
     }
-
-    public static void main(String[] args) {
-        System.out.println();
-        int i;
-
-        List list = new ArrayList();
-
-
-    }
 }
